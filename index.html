@@ -1,12 +1,12 @@
 <!Doctype html>
-<h3>
+<html>
     <head>
         <title>Belogour</title>
         <meta charset="UTF-8"/>
         <meta name="description" lang="en" content="description"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1 shrink-to-fit=no">
         <link rel="icon" href="#"/>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
         <link href="style.css" type="text/css" rel="stylesheet" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
@@ -16,37 +16,31 @@
               <div class="container">
                 <div class="row w-100 no-gutters">
                   <div class="col-12 col-sm-6 col-lg-3 order-first justify-content-center">
-                    <div class="container firstBlockHeader">
-                      <div class="row"> 
-                        <div class="col-2 btn-menu">
-                            <a class="menuBar navbar-toggler" href="#" id="menuBar" data-toggle="collapse" data-target="#navbarResponsive">
-                                <span class="menuBar__item menuBar__item-1"></span>
-                                <span class="menuBar__item menuBar__item-2"></span>
-                                <span class="menuBar__item menuBar__item-3"></span>
-                            </a>
-                        </div>
-                        <div class="col-10 d-flex align-items-center justify-content-center ">
-                            <a class="navbar-brand logo" href="#"></a>
-                            <h1 class="title-header">Belogour<br>properties</h1>
-                        </div>
+                    <div class="row"> 
+                      <div class="col-2 btn-menu">
+                          <a class="navbar-toggler" type="button" href="#" id="menuBar" data-toggle="collapse" data-target="#navbarResponsive">
+                            <span class="navbar-toggler-icon"></span>
+                          </a>
+                      </div>
+                      <div class="col-10 d-flex align-items-center justify-content-center ">
+                          <a class="navbar-brand" href="#"><img src="belogour-properties-logo.svg" alt=""></a>
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-6 d-flex justify-content-center navbar_position">
-                    <div class="collapse navbar-collapse d-flex header-navbar justify-content-center navbar_position-collapse" id="navbarResponsive">
+                  <div class="col-lg-6 collapse navbar-collapse  navbar_position-collapse" id="navbarResponsive">
                       <ul class="navbar-nav header-navbar-ul">
                         <li class="nav-item"><a class="nav-link header-navbar-ul__li_a-text-style" href="#Advertisers">About</a></li>
                         <li class="nav-item"><a class="nav-link header-navbar-ul__li_a-text-style" href="#Platforms">Properties</a></li>
                         <li class="nav-item"><a class="nav-link header-navbar-ul__li_a-text-style" href="#Formats">Developers</a></li>
                         <li class="nav-item"><a class="nav-link header-navbar-ul__li_a-text-style" href="#About">Journal</a></li>
                         <li class="nav-item"><a class="nav-link header-navbar-ul__li_a-text-style" href="#Guide">Contacts</a></li>
-                        <li class="nav-item button_display-menu"><a class="header-btn__login button__login_hover-and-active d-flex align-items-center justify-content-center" href="#"> Login</a><a class="header-btn__sign button_hover-and-active d-flex btn_font-color_white align-items-center justify-content-center" href="#"> Sign Up</a></li>
+                        <li class="nav-item button_display-menu"><a class="header-btn__login button__login_hover-and-active d-flex align-items-center justify-content-center" href="#"> Login</a></li>
                       </ul>
-                    </div>
                   </div>
-                  <div class="col-12 col-sm-6 col-lg-3 header__btns d-flex align-items-center justify-content-end">
+                    <div class="col-12 col-sm-6 col-lg-3 header__btns d-flex align-items-center justify-content-end">
                       <a class="button_display header-btn__login button__login_hover-and-active d-flex align-items-center justify-content-center" href="#">Sell / Rent Your Properties</a>
-                  </div>
+                    </div>
+                </div>
               </div>
             </nav>
           </header>
@@ -55,13 +49,396 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-10 offset-1 ">
-                                <div class="dropdown-box d-flex justify-content-center">
-                                    <h3 class="dropdown-box__title ">Find Your</h3><h3 class="dropdown-box__title_orange "> Dream Home </h3><h3 class="dropdown-box__title "> In Dubai</h3>
+                                <div class=" container dropdown-box ">
+                                  <div class="row"> 
+                                    <div class="col-12 dropdown-box_text-align">  
+                                      <p class="dropdown-box__title block_setings-display">Find Your</p><span class="dropdown-box__title_orange "> Dream Home </span><span class="dropdown-box__title "> In Dubai</span>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Buy
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Property Type
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Min.Price
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Max.price
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Min. Bed
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Max. Bed
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Min. Area
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Max. Area
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Amenities
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                      <div class="dropdown">
+                                        <button class="dropdown-button_style btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Completion Status
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="#">Action</a>
+                                          <a class="dropdown-item" href="#">Another action</a>
+                                          <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                      <div>
+                                        <input  class="dropdown-button_style btn btn-secondary dropdown-toggle" placeholder="Min.Price" type="text" >
+                                        </input>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-12 col-md-6">
+                                      <button class="button_reset">Reset</button>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                      <button class="button_search">Search</button>
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
+                       
                     </div>
+                </div>
+                <div class="second-box">
+                  <div class="container">
+                    <div class="row">
+                      <h3 class="main-box__title">BROWSE MORE PROPERTY TYPES</h3>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-12 col-md-3 second-box__stick">
+                        <div class="second-box__stick_image_first"></div>
+                        <p class="second-box__stick_text">FOR SALE</p>
+                        
+                      </div>
+                      <div class="col-12 col-md-3 second-box__stick">
+                          <div class="second-box__stick_image_second"></div>
+                          <p class="second-box__stick_text">FOR Rent</p>
+                      </div>
+                      <div class="col-12 col-md-3 second-box__stick">
+                          <div class="second-box__stick_image_third"></div>
+                          <p class="second-box__stick_text">off plan</p>
+                      </div>
+                      <div class="col-12 col-md-3 second-box__stick">
+                          <div class="second-box__stick_image_fourth"></div>
+                          <p class="second-box__stick_text">sell/rent</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="third-box">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12"> 
+                        <h3 class="main-box__title">MAP OF BELOGOUR PROPERTIES</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12 third-box__container-for-map_noPadding">
+                          <div class="map" id="map"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fourth-box">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-12"> 
+                        <h3 class="main-box__title">RECOMMENDED PROPERTIES IN DUBAI</h3>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                        <div class="row">
+                          <div class="fourth-box-stick_image_first"></div>
+                        </div>
+                        <div class="row">
+                          <h4 class="fourth-box-stick_title">ST PETERSBURG ISLAND<br> AT THE HEART OF EUROPE</h4>
+                        </div>
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="amount-aed">2,000,000 AED</p>
+                          </div>
+                          <div class="col-6">
+                            <p class="amount-sqft">200,000Sqft</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <p class="col-12 fourth-box-stick__text">Floating Seahorse,<br> The World Islands, Dubai</p>
+                        </div>
+                        <div class="row">
+                          <div class="col-3">
+                            <span class="fourth-box-number">3</span>
+                            <img class="fourth-stick_image" src="bed.svg" alt="">
+                          </div>
+                          <div class="col-3">
+                            <span class="fourth-box-number">1</span>
+                            <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                          <div class="row">
+                              <div class="fourth-box-stick_image_second"></div>
+                            </div>
+                            <div class="row">
+                              <h4 class="fourth-box-stick_title">BAYSHORE<br> AT CREEK BEACH</h4>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p class="amount-aed">3,210,000 AED</p>
+                              </div>
+                              <div class="col-6">
+                                <p class="amount-sqft">100Sqft</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <p class="col-12 fourth-box-stick__text">1 Bayshore,<br> Dubai</p>
+                            </div>
+                            <div class="row">
+                              <div class="col-3">
+                                <span class="fourth-box-number">3</span>
+                                <img class="fourth-stick_image" src="bed.svg" alt="">
+                              </div>
+                              <div class="col-3">
+                                <span class="fourth-box-number">2</span>
+                                <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                          <div class="row">
+                              <div class="fourth-box-stick_image_third"></div>
+                            </div>
+                            <div class="row">
+                              <h4 class="fourth-box-stick_title">CHERRYWOODS <br>TOWNHOUSES BY MERAAS</h4>
+                            </div>
+                            <div class="row">
+                              <div class="col-6">
+                                <p class="amount-aed">1,400,000 AED</p>
+                              </div>
+                              <div class="col-6">
+                                <p class="amount-sqft">2,634Sqft</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <p class="col-12 fourth-box-stick__text">36 Emirates Rd,<br>Cherrywoods, Dubai</p>
+                            </div>
+                            <div class="row">
+                              <div class="col-3">
+                                <span class="fourth-box-number">2</span>
+                                <img class="fourth-stick_image" src="bed.svg" alt="">
+                              </div>
+                              <div class="col-3">
+                                <span class="fourth-box-number">1</span>
+                                <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                          <div class="row">
+                            <div class="fourth-box-stick_image_fourth"></div>
+                          </div>
+                          <div class="row">
+                            <h4 class="fourth-box-stick_title">ST PETERSBURG ISLAND<br> AT THE HEART OF EUROPE</h4>
+                          </div>
+                          <div class="row">
+                            <div class="col-6">
+                              <p class="amount-aed">2,000,000 AED</p>
+                            </div>
+                            <div class="col-6">
+                              <p class="amount-sqft">200,000Sqft</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <p class="col-12 fourth-box-stick__text">Floating Seahorse,<br> The World Islands, Dubai</p>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <span class="fourth-box-number">3</span>
+                              <img class="fourth-stick_image" src="bed.svg" alt="">
+                            </div>
+                            <div class="col-3">
+                              <span class="fourth-box-number">1</span>
+                              <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                            <div class="row">
+                                <div class="fourth-box-stick_image_fifth"></div>
+                              </div>
+                              <div class="row">
+                                <h4 class="fourth-box-stick_title">ST PETERSBURG ISLAND <br>AT THE HEART OF EUROPE</h4>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                  <p class="amount-aed">3,210,000 AED</p>
+                                </div>
+                                <div class="col-6">
+                                  <p class="amount-sqft">100Sqft</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <p class="col-12 fourth-box-stick__text">1 Bayshore,<br> Dubai</p>
+                              </div>
+                              <div class="row">
+                                <div class="col-3">
+                                  <span class="fourth-box-number">3</span>
+                                  <img class="fourth-stick_image" src="bed.svg" alt="">
+                                </div>
+                                <div class="col-3">
+                                  <span class="fourth-box-number">2</span>
+                                  <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4 fourth-box__stick">
+                            <div class="row">
+                                <div class="fourth-box-stick_image_sixth"></div>
+                              </div>
+                              <div class="row">
+                                <h4 class="fourth-box-stick_title">CHERRYWOODS <br>TOWNHOUSES BY MERAAS</h4>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                  <p class="amount-aed">1,400,000 AED</p>
+                                </div>
+                                <div class="col-6">
+                                  <p class="amount-sqft">2,634Sqft</p>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <p class="col-12 fourth-box-stick__text">36 Emirates Rd,<br>Cherrywoods, Dubai</p>
+                              </div>
+                              <div class="row">
+                                <div class="col-3">
+                                  <span class="fourth-box-number">2</span>
+                                  <img class="fourth-stick_image" src="bed.svg" alt="">
+                                </div>
+                                <div class="col-3">
+                                  <span class="fourth-box-number">1</span>
+                                  <img class="fourth-stick_image" src="bathtub (2).svg" alt="">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                      
+                    </div>
+                  </div>
                 </div>
                 
           </main>
-    </body>
+          <script src="script.js" type="text/javascript"></script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+</html>

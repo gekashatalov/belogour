@@ -19,65 +19,16 @@ body{
     font-size: 16px;
 }
 
-.logo{
-    width: 57.5px;
-    height: 50px;
-    background: url('logo-bg.svg');
-}
 .btn-menu{
     width: auto;
     height: auto;
 }
 
-.menuBar {
-    /*@extend %baseTransition;*/
-    position: fixed;
-    top: 22px;
-    left: 14px;
-    display: block;
-    width:28px;
-    height: 24px;
-    z-index: 990;
+.navbar_position-collapse{
+    display: flex;
+    justify-content: center;
 }
-    .menuBar:hover {
-        opacity: .7;
-    }
-    .menuBar__item {
-        position:absolute;
-        left:0;
-        display: block;
-        width:28px;
-        height: 24px;
-        border-radius: 1px;
-        background-color: #FFFFFF;
-        transition: all 0.4s;
-        -webkit-transition: all 0.4s;
-        -moz-transition: all 0.4s;
-    }
-        .menuBar-1{
-            top:0;
-        }
-        .menuBar-2{
-            top:50%;
-        }
-        .menuBar-3{
-            top:100%;
-        }
-    
-        /*.menuBar_active{
-        .menuBar__item-1{
-            transform: translateY($translateY) translateX($translateX) rotate($rotation);
-            -webkit-transform: translateY($translateY) translateX($translateX) rotate($rotation);
-            -moz-transform: translateY($translateY) translateX($translateX) rotate($rotation);
-        }
-        .menuBar__item-2{
-            opacity:0;
-        }
-        .menuBar__item-3{
-            transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
-            -webkit-transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
-            -moz-transform: translateY($translateY * -1) translateX($translateX) rotate($rotation * -1);
-        }*/
+
 .title-header{
     display: block !important;
     color: #FFFFFF;
@@ -126,4 +77,284 @@ body{
     font-size: 44px;
     text-align: center;
     color: #E1AA79;
+}
+
+.dropdown-box_text-align{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.block_setings-display{
+    display: inline !important;
+}
+.dropdown-button_style{
+    text-align: left !important;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    color:#262637 !important;
+    border: none !important;
+    border-bottom: 2px #262637 solid !important;
+    border-bottom-left-radius: inherit !important;
+    border-bottom-right-radius: inherit !important;
+
+}
+
+.dropdown-button_style::after{
+    position: relative !important;
+    right: 0px !important;
+    color: #E1AA79 !important;
+    
+}
+.dropdown-button_style::placeholder{
+    color:#262637 !important;
+}
+
+.button_reset{
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    background: #00000010 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color:#262637;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none !important;
+}
+
+
+.button_search{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 50px;
+    background: transparent linear-gradient(277deg, #E1AA79 0%, #71553D 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color:#FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border: none !important;
+}
+
+.main-box__title{
+    color:#E1AA79;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.second-box__stick{
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 263px !important;
+    height: 307px;
+    border: 2px solid #37374D;
+}
+.second-box__stick_image_first{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 223px;
+    max-width: 223px;
+    background: transparent url('15517958735c7e86a1596ea.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.second-box__stick_image_second{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 223px;
+    max-width: 223px;
+    background: transparent url('15517958735c7e86a1596ea.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.second-box__stick_text{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#FFFFFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.second-box__stick_image_third{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 223px;
+    max-width: 223px;
+    background: transparent url('15511802955c7522073597b.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.second-box__stick_image_fourth{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 223px;
+    max-width: 223px;
+    background: transparent url('15506699775c6d589948d64.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.second-box{
+    margin-top:180px; 
+    height: 100%;
+    border-bottom: #37374D 2px solid;
+}
+
+.third-box{
+    margin-top: 80px;
+    border-bottom: #37374D 2px solid;
+}
+.third-box__container-for-map_noPadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.map{
+    margin-top: 30px;
+    height: 630px;
+}
+
+.fourth-box{
+    margin-top: 80px;
+    border-bottom: #37374D 2px solid;
+}
+
+.fourth-box__stick{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px !important;
+    min-height: 594px !important;
+    border: 2px solid #37374D;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_first{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('img_St-PETERSBURG-01.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_second{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('15506699775c6d589945d88.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_third{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('NoPath – копія (19).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_fourth{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('NoPath – копія (16).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_fifth{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('NoPath – копія (17).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_image_sixth{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 320px;
+    width: 100%;
+    max-width: 320px;
+    background: transparent url('NoPath – копія (18).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.fourth-box-stick_title{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 20px;
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    letter-spacing: 0.8px;
+}
+
+.amount-aed{
+    margin-left: 5px;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#E1AA79;
+    text-align: left;
+}
+
+.amount-sqft{
+    margin-right: 5px;
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    text-align: right;
+}
+
+.fourth-box-stick__text{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-left: 20px !important;
+    padding-top: 22px;
+    border-top: 2px solid #37374D;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFFFFF;
+    text-align: left;
+}
+
+.fourth-box-number{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.fourth-stick_image{
+    vertical-align: initial;
 }
